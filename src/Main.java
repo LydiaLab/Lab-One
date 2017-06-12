@@ -17,8 +17,6 @@ public class Main {
                 + "\n" + "Begin by entering The Snug Room LENGTH:");
         sngLength = scnr.nextDouble();
 
-        // FIX IT  following is for version to extract numbers from other char
-        //System.out.println("Enter Feet \", Inches for Snug Rm Length: /n Such as 16\', 24\".");
 
         System.out.println("Now enter The Snug Room WIDTH:");
         sngWidth = scnr.nextDouble();
@@ -26,22 +24,6 @@ public class Main {
         sngArea = sngLength * sngWidth; //determine Area
         sngPerimeter = 2 * (sngLength + sngWidth); // determine perimeter
         System.out.println("The Snug Room Area is: " + sngArea + "\nAnd the Perimeter is: " + sngPerimeter);
-
-        // boolean as to continue
-//        String answer;
-//        do {
-//            System.out.println("Would you like to continue?");
-//            answer = scnr.next();
-//            System.out.println(answer);
-//
-//            if (scnr.next().equalsIgnoreCase("n") || scnr.next().equalsIgnoreCase("no")) {
-//                System.out.println("Ok. Bye bye.");
-//            } else {
-//                System.out.println("Invalid character. Bye.");
-//            }
-//        }
-//        while (scnr.next().equalsIgnoreCase("y") || scnr.next().equalsIgnoreCase("yes"));
-//        System.out.println("Great! Let's find out about the Penthouse next.");
 
 
         System.out.println("Would you like to continue?");
